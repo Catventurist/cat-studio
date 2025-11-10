@@ -12,5 +12,9 @@ export default defineNuxtConfig({
       crawlLinks: true,
       autoSubfolderIndex: false
     }
+  },
+  site: { 
+    url: 'cat',
+    name: 'CatStudio'
   }
 })

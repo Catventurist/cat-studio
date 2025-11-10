@@ -19,8 +19,9 @@ export default defineAppConfig({
     to: '/',
     logo: {
       alt: 'CS',
-      light: '/catbirch.webp',
-      dark: '/catbirchdark.webp'
+      light: '/logo-light.webp',
+      dark: '/logo-dark.webp',
+      class: 'rounded-full'
     },
     search: true,
     colorMode: true,
@@ -55,11 +56,11 @@ export default defineAppConfig({
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/catventurist',
+      edit: 'https://github.com/Catventurist/cat-studio/tree/cat/content',
       links: [{
         icon: 'i-lucide-star',
         label: 'Star on GitHub',
-        to: 'https://github.com/catventurist',
+        to: 'https://github.com/Catventurist/cat-studio',
         target: '_blank'
       }, {
         icon: 'i-lucide-book-open',
